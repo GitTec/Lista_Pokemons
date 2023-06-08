@@ -2,12 +2,17 @@ body {
 	font-family: 'Poppins', sans-serif;
 	max-width: 1280px;
 	margin: 0 auto;
-	background-color: #5e5b5bad;
-	color: #333333;
+	/* background-color: #5e5b5bad; */
+	background-image: url("../imagens/pokemonDia.png");
+	background-size: cover;
+	/* color: #333333; */
+	color: #fff;
 }
 
 body.modo-escuro {
-	background-color: #212121;
+	/* background-color: #212121; */
+	background-image: url("../imagens/pokemonNoite.jpg");
+	background-size: cover;
 	color: #f5f5f5;
 }
 
@@ -19,7 +24,7 @@ header {
 
 header .logo,
 header .imagem-botao {
-	width: 30px;
+	width: 50px;
 	transition: 0.2s ease-in-out;
 }
 
@@ -47,7 +52,9 @@ main .listagem-pokemon {
 }
 
 main .cartao-pokemon {
-	background-color: #d8e3ec;
+	/* background-color: #d8e3ec; */
+	background-image: url("../imagens/espiralcard.jpg");
+	background-size: cover;
 	width: 200px;
 	padding: 15px;
 	display: flex;
@@ -60,12 +67,12 @@ main .cartao-pokemon {
 
 main .cartao-pokemon:hover {
 	background-color: #96d9d6;
-	box-shadow: 10px 5px 5px black;
+	box-shadow: 10px 5px 5px rgb(129, 34, 34);
 }
 
-.modo-escuro .cartao-pokemon {
+/* .modo-escuro .cartao-pokemon {
 	background-color: #a8a8a8;
-}
+} */
 
 main .cartao-pokemon .informacoes {
 	display: flex;
@@ -115,8 +122,8 @@ main .cartao-pokemon .tipo {
 	background-color: #a6b91a;
 }
 
-.voador{
-    background-color: #6d87a9;
+.voador {
+	background-color: #6d87a9;
 }
 
 main .descricao {
